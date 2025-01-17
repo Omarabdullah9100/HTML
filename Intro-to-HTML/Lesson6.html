@@ -1,0 +1,34 @@
+<!-- HTML Structure
+ ,use of live server
+ making separate file fore css style and combining it with html
+ 
+ (here we use 'link' element followed by 'href' (we add the file name in href) to add the css file)
+ 
+ If the CSS file is saved inside any folder, link can't directly search for the file,
+ so we use the following method:
+ syntax:- foldername/filename (inside the 'href')
+
+ If both the files (html and css) are in different folders,
+ we use '../foldername/cssfile' for getting the styles
+ -->
+
+<!Doctype HTML>
+<html>
+    <head>
+        <title>BUTTONS</title>
+        <link rel="stylesheet"  href="../styles/buttonstyles.css">
+    </head>
+    <body>
+        <button class="subscribe_button">
+            Subscribe
+          </button>
+          
+          <button class="join_button">
+            JOIN
+          </button>
+          
+          <button class="tweet">
+            TWEET
+          </button>
+    </body>
+</html>
